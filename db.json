@@ -1,0 +1,1094 @@
+{
+  "categories": [
+    {
+      "id": "2",
+      "name": "Action",
+      "description": "Games that focus on fast-paced, dynamic gameplay involving physical challenges.",
+      "coverImage": "@/assets/action-cover.jpg",
+      "titleImage": "@/assets/action-title.png",
+      "characterImage": "@/assets/action-character.webp"
+    },
+    {
+      "id": "5",
+      "name": "Fighting",
+      "description": "Games that involve combat between characters or teams.",
+      "coverImage": "@/assets/fighting-cover.jpg",
+      "titleImage": "@/assets/fighting-title.png",
+      "characterImage": "@/assets/fighting-character.webp"
+    },
+    {
+      "id": "6",
+      "name": "Horror",
+      "description": "Games designed to scare or unsettle players with a focus on suspense and atmosphere.",
+      "coverImage": "@/assets/horror-cover.jpg",
+      "titleImage": "@/assets/horror-title.png",
+      "characterImage": "@/assets/horror-character.webp"
+    },
+    {
+      "id": "8",
+      "name": "Racing",
+      "description": "Games that involve racing vehicles against opponents or the clock.",
+      "coverImage": "@/assets/racing-cover.jpg",
+      "titleImage": "@/assets/racing-title.png",
+      "characterImage": "@/assets/racing-character.webp"
+    },
+    {
+      "id": "18",
+      "name": "Survival",
+      "description": "Games where the primary objective is to survive against various threats.",
+      "coverImage": "@/assets/survival-cover.jpg",
+      "titleImage": "@/assets/survival-title.png",
+      "characterImage": "@/assets/survival-character.webp"
+    }
+  ],
+  "slider": [
+    {
+      "id": "1",
+      "title": "The Witcher 3: Wild Hunt",
+      "description": "An epic RPG adventure where you play as Geralt of Rivia, hunting monsters and unraveling a deep, immersive story.",
+      "image": "https://w0.peakpx.com/wallpaper/313/319/HD-wallpaper-the-witcher-3-wild-hunt-ciri-and-geralt-of-rivia-dual-monitor-witcher-3.jpg",
+      "offer": "25% off this weekend!"
+    },
+    {
+      "id": "2",
+      "title": "DOOM Eternal",
+      "description": "A high-octane first-person shooter where you battle demons from Hell with a variety of powerful weapons.",
+      "image": "https://w0.peakpx.com/wallpaper/477/1022/HD-wallpaper-doomsday-apocalypse-armageddon-end-of-the-world.jpg",
+      "offer": "Buy one, get one free on select bundles!"
+    },
+    {
+      "id": "3",
+      "title": "Phasmophobia",
+      "description": "A cooperative horror game where you and your friends explore haunted locations and gather evidence of paranormal activity.",
+      "image": "https://w0.peakpx.com/wallpaper/146/751/HD-wallpaper-predator-alien-xenomorph-shark-dual-monitor.jpg",
+      "offer": "30% off for early access!"
+    },
+    {
+      "id": "4",
+      "title": "Forza Horizon 5",
+      "description": "An open-world racing game set in Mexico, featuring stunning graphics and a vast selection of cars to race and customize.",
+      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/forza-horizon-5-sand-dunes-logo.jpg",
+      "offer": "Free DLC with purchase!"
+    },
+    {
+      "id": "5",
+      "title": "Subnautica",
+      "description": "An open-world survival game set underwater on an alien planet, where you explore, craft, and survive in a vast ocean.",
+      "image": "https://images6.alphacoders.com/784/784277.jpg",
+      "offer": "Exclusive in-game items with purchase!"
+    }
+  ],
+  "games": [
+    {
+      "id": "a1",
+      "title": "Clostrophobia Vol 1 TENOKE",
+      "description": "The game is a hybrid maze crawler / first person shooter with time manipulation, set inside a claustrophobic air duct filled with deadly traps and unpredictable enemies. You must carefully mark your path and avoid the many obstacles laid out for you all while evading or killing whatever is hunting you inside the maze.",
+      "system_requirements": {
+        "os": "Windows 7 64-bit or higher",
+        "processor": "Intel Core i5-2300 2.8 GHz / AMD FX-6300, 3.5 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 760, (2 GB VRAM) | AMD Radeon HD 7870, (2 GB VRAM)",
+        "directx": "Version 11",
+        "storage": "4 GB available space",
+        "sound_card": "DirectX Compatible"
+      },
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhPH2fFxNvk9s3N7QHs2YOG4IF-KcqOsUFQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhPH2fFxNvk9s3N7QHs2YOG4IF-KcqOsUFQ&s"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 8.7,
+        "total_reviews": 256
+      }
+    },
+    {
+      "id": "a2",
+      "title": "Grand Theft Auto V",
+      "description": "An open-world action-adventure game with a focus on story-driven gameplay.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-3470 3.2 GHz / AMD FX-8350 4.0 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GTX 660 2GB / AMD HD 7870 2GB",
+        "directx": "Version 11",
+        "storage": "72 GB available space",
+        "sound_card": "DirectX 10 compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81kAitW5qAL.jpg",
+        "https://m.media-amazon.com/images/I/81kAitW5qAL.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 9.4,
+        "total_reviews": 1043
+      }
+    },
+    {
+      "id": "a3",
+      "title": "Red Dead Redemption 2",
+      "description": "An action-adventure game set in the late 1800s American frontier, blending storytelling with open-world exploration.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-2500K 3.3 GHz / AMD FX-6300 3.5 GHz",
+        "memory": "12 GB RAM",
+        "graphics": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "directx": "Version 11",
+        "storage": "150 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81bbAeAG6vS._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81bbAeAG6vS._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 9.6,
+        "total_reviews": 932
+      }
+    },
+    {
+      "id": "a4",
+      "title": "Assassin's Creed Valhalla",
+      "description": "An action RPG set during the Viking invasion of England, focusing on combat and exploration.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4460 3.2 GHz / AMD Ryzen 3 1200 3.1 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 960 4GB / AMD Radeon R9 380 4GB",
+        "directx": "Version 12",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81439KxmiAL.jpg",
+        "https://m.media-amazon.com/images/I/81439KxmiAL.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 8.8,
+        "total_reviews": 487
+      }
+    },
+    {
+      "id": "a5",
+      "title": "Cyberpunk 2077",
+      "description": "An open-world RPG set in a dystopian future with an emphasis on narrative and immersive gameplay.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-3570K 3.4 GHz / AMD FX-8310 3.4 GHz",
+        "memory": "12 GB RAM",
+        "graphics": "Nvidia GeForce GTX 780 / AMD Radeon RX 470",
+        "directx": "Version 12",
+        "storage": "70 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81YptknEr3L._AC_UF894,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81YptknEr3L._AC_UF894,1000_QL80_.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 7.5,
+        "total_reviews": 1425
+      }
+    },
+    {
+      "id": "a6",
+      "title": "Doom Eternal",
+      "description": "A first-person shooter with fast-paced combat and intense action set in a demonic apocalypse.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-6600K 3.5 GHz / AMD Ryzen 5 1600 3.2 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB",
+        "directx": "Version 12",
+        "storage": "50 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/91Ma+D-vdCL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/91Ma+D-vdCL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 9.1,
+        "total_reviews": 564
+      }
+    },
+    {
+      "id": "a7",
+      "title": "Mortal Kombat 11",
+      "description": "A fighting game featuring a diverse roster of characters and brutal combat moves.",
+      "system_requirements": {
+        "os": "Windows 7 64-bit",
+        "processor": "Intel Core i5-7500 3.4 GHz / AMD Ryzen 5 1600 3.2 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1050 Ti / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71qwExpwFkL.jpg",
+        "https://m.media-amazon.com/images/I/71qwExpwFkL.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 8.9,
+        "total_reviews": 357
+      }
+    },
+    {
+      "id": "a8",
+      "title": "Just Cause 4",
+      "description": "An open-world action game known for its large environment and explosive gameplay.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-2400 3.1 GHz / AMD FX-6300 3.5 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon R9 390",
+        "directx": "Version 11",
+        "storage": "59 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61ui7lBC8xS._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/61ui7lBC8xS._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 7.8,
+        "total_reviews": 221
+      }
+    },
+    {
+      "id": "a9",
+      "title": "Far Cry 6",
+      "description": "An open-world shooter set in a fictional Caribbean island with a focus on guerrilla warfare.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4460 3.2 GHz / AMD Ryzen 3 1200 3.1 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 960 4GB / AMD Radeon R9 380 4GB",
+        "directx": "Version 12",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81VqW5+tnyL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VqW5+tnyL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 8.2,
+        "total_reviews": 310
+      }
+    },
+    {
+      "id": "a10",
+      "title": "Tomb Raider (2013)",
+      "description": "A reboot of the classic franchise featuring a more gritty and survival-focused Lara Croft.",
+      "system_requirements": {
+        "os": "Windows 7 64-bit",
+        "processor": "Intel Core i3-2100 3.1 GHz / AMD Phenom II X4 955 3.2 GHz",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce 9800 GTX / AMD Radeon HD 4870",
+        "directx": "Version 11",
+        "storage": "24 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/f/f1/TombRaider2013.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/f/f1/TombRaider2013.jpg"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 8.5,
+        "total_reviews": 678
+      }
+    },
+    {
+      "id": "f1",
+      "title": "Street Fighter V",
+      "description": "A competitive fighting game featuring a diverse roster of characters and combat styles.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i3-4160 3.6 GHz / AMD FX-6300",
+        "memory": "6 GB RAM",
+        "graphics": "Nvidia GeForce GTX 480 / AMD Radeon HD 7700",
+        "directx": "Version 11",
+        "storage": "16 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71jAdj3n0qL.jpg",
+        "https://m.media-amazon.com/images/I/71jAdj3n0qL.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 8.3,
+        "total_reviews": 456
+      }
+    },
+    {
+      "id": "f2",
+      "title": "Mortal Kombat 11",
+      "description": "A fighting game featuring a diverse roster of characters and brutal combat moves.",
+      "system_requirements": {
+        "os": "Windows 7 64-bit",
+        "processor": "Intel Core i5-7500 3.4 GHz / AMD Ryzen 5 1600 3.2 GHz",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1050 Ti / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71qwExpwFkL.jpg",
+        "https://m.media-amazon.com/images/I/71qwExpwFkL.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 8.9,
+        "total_reviews": 357
+      }
+    },
+    {
+      "id": "f3",
+      "title": "Tekken 7",
+      "description": "The latest installment in the Tekken series featuring enhanced graphics and an expanded roster of fighters.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-4690K 3.5 GHz / AMD FX-8300",
+        "memory": "6 GB RAM",
+        "graphics": "Nvidia GeForce GTX 770 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81tk896p+VL.jpg",
+        "https://m.media-amazon.com/images/I/81tk896p+VL.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 8.7,
+        "total_reviews": 492
+      }
+    },
+    {
+      "id": "f4",
+      "title": "Dragon Ball FighterZ",
+      "description": "A fighting game that combines the fast-paced action of Dragon Ball with stunning 2D graphics and a diverse roster of characters.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2400 / AMD FX-6300",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 650 Ti / AMD Radeon HD 7770",
+        "directx": "Version 11",
+        "storage": "12 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/818Z2FggpEL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/818Z2FggpEL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 9,
+        "total_reviews": 668
+      }
+    },
+    {
+      "id": "f5",
+      "title": "Guilty Gear Strive",
+      "description": "A visually stunning 2D fighting game with deep combat mechanics and a vibrant cast of characters.",
+      "system_requirements": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 580",
+        "directx": "Version 11",
+        "storage": "16 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://images-cdn.ubuy.co.in/635170cf964b6b1d8b04ff80-guilty-gear-strive-playstation-5.jpg",
+        "https://images-cdn.ubuy.co.in/635170cf964b6b1d8b04ff80-guilty-gear-strive-playstation-5.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 8.8,
+        "total_reviews": 401
+      }
+    },
+    {
+      "id": "f6",
+      "title": "Injustice 2",
+      "description": "A fighting game featuring DC superheroes and villains with a focus on cinematic storytelling and varied combat.",
+      "system_requirements": {
+        "os": "Windows 7 64-bit",
+        "processor": "Intel Core i5-750 2.67 GHz / AMD FX-6300",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 670 / AMD Radeon HD 7950",
+        "directx": "Version 11",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81Qr-L3zT-L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81Qr-L3zT-L._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "category": "Fighting",
+      "ratings": {
+        "average_rating": 8.5,
+        "total_reviews": 321
+      }
+    },
+    {
+      "id": "p1",
+      "title": "Portal 2",
+      "description": "A first-person puzzle game where players use a portal gun to solve physics-based puzzles and navigate through the game's world.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Dual-core CPU 2.8 GHz",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce 8600 / ATI Radeon HD 2600",
+        "directx": "Version 9.0c",
+        "storage": "8 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81s49gyeErL._AC_UF894,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81s49gyeErL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 9,
+        "total_reviews": 678
+      }
+    },
+    {
+      "id": "p2",
+      "title": "The Witness",
+      "description": "A first-person puzzle game set on a mysterious island filled with complex puzzles that challenge your perception and logic.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i3-3220 / AMD A8-7600",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 660 / AMD Radeon HD 7870",
+        "directx": "Version 11",
+        "storage": "8 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Witness_cover.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Witness_cover.jpg"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 8.9,
+        "total_reviews": 543
+      }
+    },
+    {
+      "id": "p3",
+      "title": "Baba Is You",
+      "description": "A unique puzzle game where you manipulate the rules of the game world itself to solve puzzles and advance through levels.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i3-2100 / AMD A8-5500",
+        "memory": "2 GB RAM",
+        "graphics": "Integrated Graphics",
+        "directx": "Version 9.0c",
+        "storage": "500 MB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/2/28/Baba_is_you_cover_art.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/2/28/Baba_is_you_cover_art.jpg"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 9.2,
+        "total_reviews": 389
+      }
+    },
+    {
+      "id": "p4",
+      "title": "Tetris Effect",
+      "description": "A visually stunning and immersive version of the classic puzzle game Tetris, featuring enhanced graphics and sound design.",
+      "system_requirements": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-4590 / AMD Ryzen 3 1200",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon R9 290",
+        "directx": "Version 11",
+        "storage": "3 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEAwYDCfpD6Fy4ChqBiBHtCMbBG6n0rTIMA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEAwYDCfpD6Fy4ChqBiBHtCMbBG6n0rTIMA&s"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 8.8,
+        "total_reviews": 295
+      }
+    },
+    {
+      "id": "p5",
+      "title": "Limbo",
+      "description": "A dark, atmospheric puzzle-platformer where you guide a young boy through a nightmarish world filled with dangerous puzzles and traps.",
+      "system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8 / 10",
+        "processor": "1.2 GHz processor",
+        "memory": "512 MB RAM",
+        "graphics": "DirectX 9.0c compatible",
+        "directx": "Version 9.0c",
+        "storage": "150 MB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://cdn1.epicgames.com/offer/92053006068e4aa9b1ad413f72090f5e/LIMBO_340X440-340x440-5d0f4083d70fdfc1656a15428e98ec431_1200x1600-68b16bfe08a9322b7b5fc7ec58b003d4"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 8.7,
+        "total_reviews": 450
+      }
+    },
+    {
+      "id": "p6",
+      "title": "The Talos Principle",
+      "description": "A philosophical first-person puzzle game featuring a series of increasingly complex puzzles within a mysterious world.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2400 / AMD FX-6300",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 460 / AMD Radeon HD 6850",
+        "directx": "Version 11",
+        "storage": "5 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/a/ac/The_Talos_Principle.jpg ",
+        "https://example.com/talos_principle_image2.jpg"
+      ],
+      "category": "Puzzle",
+      "ratings": {
+        "average_rating": 9.1,
+        "total_reviews": 612
+      }
+    },
+    {
+      "id": "r1",
+      "title": "Forza Horizon 5",
+      "description": "An open-world racing game set in a fictionalized version of Mexico with diverse environments and a large variety of cars.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 580",
+        "directx": "Version 12",
+        "storage": "110 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://cdn.dotpe.in/longtail/store-items/8071193/ZMFBppRi.jpeg",
+        "https://example.com/forza_horizon5_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 9.2,
+        "total_reviews": 734
+      }
+    },
+    {
+      "id": "r2",
+      "title": "Gran Turismo 7",
+      "description": "The latest entry in the acclaimed Gran Turismo series, featuring realistic driving physics and a wide range of vehicles and tracks.",
+      "system_requirements": {
+        "os": "PlayStation 5",
+        "processor": "Not applicable",
+        "memory": "Not applicable",
+        "graphics": "Not applicable",
+        "directx": "Not applicable",
+        "storage": "Not applicable",
+        "sound_card": "Not applicable"
+      },
+      "images": [
+        "https://shopatsc.com/cdn/shop/products/PS4_GT7_STE_PKSHT_FT_PEGI_PROVISIONAL_RGB_210831.jpg?v=1632293301",
+        "https://example.com/gran_turismo7_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 9.4,
+        "total_reviews": 564
+      }
+    },
+    {
+      "id": "r3",
+      "title": "Need for Speed Heat",
+      "description": "An arcade racing game featuring a mix of street racing and police chases in a fictional city.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4460 / AMD Ryzen 3 1300X",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1050 Ti / AMD Radeon RX 470",
+        "directx": "Version 11",
+        "storage": "50 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/81TZ5GfS6-L._AC_UF894,1000_QL80_.jpg",
+        "https://example.com/need_for_speed_heat_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 8,
+        "total_reviews": 312
+      }
+    },
+    {
+      "id": "r4",
+      "title": "F1 23",
+      "description": "A racing simulation game featuring all the teams, drivers, and circuits from the 2023 Formula One season.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-9600K / AMD Ryzen 5 2600",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+        "directx": "Version 12",
+        "storage": "50 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/5/5b/F1_23_cover_art.jpg",
+        "https://example.com/f1_23_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 8.7,
+        "total_reviews": 210
+      }
+    },
+    {
+      "id": "r5",
+      "title": "WRC 10",
+      "description": "A rally racing simulation game featuring all the teams, cars, and drivers from the 2021 World Rally Championship.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 580",
+        "directx": "Version 11",
+        "storage": "30 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71ZE4u+KcBL._AC_UF1000,1000_QL80_.jpg",
+        "https://example.com/wrc_10_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 7.8,
+        "total_reviews": 180
+      }
+    },
+    {
+      "id": "r6",
+      "title": "Hot Wheels Unleashed",
+      "description": "An arcade racing game featuring toy cars and tracks, with a focus on fun and fast-paced racing.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-2500K / AMD Ryzen 5 1600",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 960 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://i.gadgets360cdn.com/products/large/image-1000x1500-1646890091.png",
+        "https://example.com/hot_wheels_unleashed_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 8.3,
+        "total_reviews": 235
+      }
+    },
+    {
+      "id": "r7",
+      "title": "Burnout Paradise Remastered",
+      "description": "A remastered version of the classic arcade racing game Burnout Paradise, featuring updated graphics and all previously released DLC.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-3570 / AMD FX-8350",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 580",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/71O4+bDbK7L._AC_UF1000,1000_QL80_.jpg",
+        "https://example.com/burnout_paradise_remastered_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 8.6,
+        "total_reviews": 287
+      }
+    },
+    {
+      "id": "r8",
+      "title": "TrackMania Turbo",
+      "description": "A fast-paced arcade racing game featuring over-the-top tracks and a variety of creative driving challenges.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2400 / AMD Phenom II X4 965",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 460 / AMD Radeon HD 6850",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/916+qBxniaL._AC_UF894,1000_QL80_.jpg",
+        "https://example.com/trackmania_turbo_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 7.9,
+        "total_reviews": 205
+      }
+    },
+    {
+      "id": "r9",
+      "title": "DiRT 5",
+      "description": "An off-road racing game with a focus on dynamic weather conditions and varied terrains.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-9600K / AMD Ryzen 5 2600",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+        "directx": "Version 12",
+        "storage": "50 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/850/1000/km0x5zk0/physical-game/b/n/x/standard-edition-dirt-5-full-game-playstation-5-original-imagfys4zwkpajxr.jpeg?q=90&crop=false",
+        "https://example.com/dirt_5_image2.jpg"
+      ],
+      "category": "Racing",
+      "ratings": {
+        "average_rating": 8.4,
+        "total_reviews": 298
+      }
+    },
+    {
+      "id": "h1",
+      "title": "Resident Evil Village",
+      "description": "A survival horror game set in a mysterious village filled with terrifying creatures and supernatural elements, continuing the story of Resident Evil VII.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+        "directx": "Version 12",
+        "storage": "50 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://preview.redd.it/resident-evil-village-turns-2-today-the-game-saw-the-v0-oxqf7mq52hya1.jpg?width=1080&crop=smart&auto=webp&s=be0e71dba937cafeabb1edc1eee4c549e93e70bc",
+        "https://example.com/resident_evil_village_image2.jpg"
+      ],
+      "category": "Horror",
+      "ratings": {
+        "average_rating": 8.9,
+        "total_reviews": 623
+      }
+    },
+    {
+      "id": "h2",
+      "title": "Silent Hill 2",
+      "description": "A classic psychological horror game known for its disturbing atmosphere and deeply unsettling storyline, set in the eerie town of Silent Hill.",
+      "system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8 / 10",
+        "processor": "Intel Pentium 4 / AMD Athlon XP",
+        "memory": "2 GB RAM",
+        "graphics": "Nvidia GeForce 6600 / ATI Radeon 9800",
+        "directx": "Version 9.0c",
+        "storage": "4 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/M/MV5BNjkyMzIxYTQtMjJlNi00NDUxLThkOTItMGQ4NzljMzhhZDNlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+        "https://example.com/silent_hill_2_image2.jpg"
+      ],
+      "category": "Horror",
+      "ratings": {
+        "average_rating": 9.1,
+        "total_reviews": 987
+      }
+    },
+    {
+      "id": "h3",
+      "title": "Outlast",
+      "description": "A first-person survival horror game where you navigate a haunted insane asylum using only a night-vision camcorder to see in the dark.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2300 / AMD Phenom II X4 955",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia GeForce GTX 460 / AMD Radeon HD 6850",
+        "directx": "Version 11",
+        "storage": "5 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/51thkwQlgHL._AC_UF1000,1000_QL80_.jpg",
+        "https://example.com/outlast_image2.jpg"
+      ],
+      "category": "Horror",
+      "ratings": {
+        "average_rating": 8.7,
+        "total_reviews": 472
+      }
+    },
+    {
+      "id": "h4",
+      "title": "Amnesia: The Dark Descent",
+      "description": "A first-person survival horror game that immerses players in a dark and creepy environment, focusing on atmosphere and psychological horror.",
+      "system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8",
+        "processor": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 4800+",
+        "memory": "2 GB RAM",
+        "graphics": "Nvidia GeForce 8800 / ATI Radeon HD 2900",
+        "directx": "Version 9.0c",
+        "storage": "2 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-764192-52.jpg",
+        "https://example.com/amnesia_dark_descent_image2.jpg"
+      ],
+      "category": "Horror",
+      "ratings": {
+        "average_rating": 8.8,
+        "total_reviews": 589
+      }
+    },
+    {
+      "id": "h5",
+      "title": "Phasmophobia",
+      "description": "A multiplayer co-op horror game where players become paranormal investigators, exploring haunted locations to identify and confront ghosts.",
+      "system_requirements": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i5-4590 / AMD Ryzen 5 1500X",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 480",
+        "directx": "Version 11",
+        "storage": "13 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://howlongtobeat.com/games/83704_Phasmophobia.jpg",
+        "https://example.com/phasmophobia_image2.jpg"
+      ],
+      "category": "Horror",
+      "ratings": {
+        "average_rating": 8.5,
+        "total_reviews": 413
+      }
+    },
+    {
+      "id": "s1",
+      "title": "Rust",
+      "description": "A multiplayer survival game where players must gather resources, build shelters, and defend themselves from other players and environmental threats in a harsh open world.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i7-4690 / AMD Ryzen 5 1600",
+        "memory": "10 GB RAM",
+        "graphics": "Nvidia GeForce GTX 670 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202103/1501/enihR6QwSYiWCNl2HdPfV6R6.png",
+        "https://example.com/rust_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 8.3,
+        "total_reviews": 1200
+      }
+    },
+    {
+      "id": "s2",
+      "title": "ARK: Survival Evolved",
+      "description": "A survival game set on a mysterious island where players must tame dinosaurs, build bases, and craft tools while surviving against both the environment and other players.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2400 / AMD FX-8320",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 770 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "60 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/7193I1xOAaL._AC_UF894,1000_QL80_.jpg",
+        "https://example.com/ark_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 7.8,
+        "total_reviews": 1500
+      }
+    },
+    {
+      "id": "s3",
+      "title": "The Forest",
+      "description": "A first-person survival horror game where players must survive on a remote island after a plane crash, crafting weapons and building shelters while facing cannibalistic mutants.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2500K / AMD FX-6300",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 760 / AMD Radeon HD 7850",
+        "directx": "Version 11",
+        "storage": "5 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/4/46/TheForest_Game.jpg",
+        "https://example.com/the_forest_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 8.5,
+        "total_reviews": 800
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Subnautica",
+      "description": "An open-world survival game set in an underwater alien world where players must explore, gather resources, and craft equipment to survive the ocean's dangers.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-3570K / AMD Ryzen 5 1400",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 550 Ti / AMD Radeon HD 7770",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/71-xYtaLyYS._AC_UL600_SR600,600_.jpg",
+        "https://example.com/subnautica_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 9,
+        "total_reviews": 950
+      }
+    },
+    {
+      "id": "s5",
+      "title": "DayZ",
+      "description": "A multiplayer open-world survival game set in a post-apocalyptic world where players must find food, water, and equipment while dealing with zombies and other players.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-4430 / AMD FX-6300",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 760 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "16 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/a/a8/Day_Z_cover.jpg",
+        "https://example.com/dayz_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 7.5,
+        "total_reviews": 700
+      }
+    },
+    {
+      "id": "s6",
+      "title": "7 Days to Die",
+      "description": "A survival horror game set in a post-apocalyptic world where players must gather resources, build fortifications, and fend off zombies during the day and night.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-2400 / AMD FX-6300",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 960 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "12 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/2/20/7_Days_To_Die_cover_art.jpg",
+        "https://example.com/7_days_to_die_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 8.1,
+        "total_reviews": 650
+      }
+    },
+    {
+      "id": "s7",
+      "title": "Green Hell",
+      "description": "A survival game set in the Amazon rainforest where players must craft, build, and survive against both the environment and wildlife while unraveling a personal story.",
+      "system_requirements": {
+        "os": "Windows 7 / 8 / 10",
+        "processor": "Intel Core i5-4460 / AMD FX-6300",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce GTX 760 / AMD Radeon R9 280",
+        "directx": "Version 11",
+        "storage": "20 GB available space",
+        "sound_card": "DirectX compatible"
+      },
+      "images": [
+        "https://image.api.playstation.com/vulcan/img/rnd/202106/0411/3Lu6EBxzd6OfqHoW7bf89yvT.png",
+        "https://example.com/green_hell_image2.jpg"
+      ],
+      "category": "Survival",
+      "ratings": {
+        "average_rating": 8.4,
+        "total_reviews": 400
+      }
+    },
+    {
+      "id": "dd2ab320-bb79-4f30-8592-afb116fee343",
+      "title": "God of war",
+      "description": "God of War Ragnarök is an action-adventure game that was released in 2022 for PlayStation. It is the sequel to the popular 2018 God of War reboot. The game follows Kratos and his son Atreus as they journey through the Nine Realms to find answers and prepare for the impending war with the Aesir gods.",
+      "system_requirements": {
+        "os": "Windows 7 64 Bit Using PCSX2 Emulator",
+        "processor": "core i5",
+        "memory": "2GB",
+        "graphics": "irix XE",
+        "directx": "Direct X9",
+        "storage": "42GB",
+        "sound_card": "none"
+      },
+      "images": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png"
+      ],
+      "category": "Action",
+      "ratings": {
+        "average_rating": 4,
+        "total_reviews": 32
+      }
+    }
+   
+  ]
+}
