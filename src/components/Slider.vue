@@ -22,77 +22,76 @@ import {
   ref,
 } from 'vue';
 
-import axios from 'axios';
+import { apiService } from '@/services/apis';
 
 export default {
-    name: 'CarouselSlider',
-    props: {
-      autoplay: {
-        type: Boolean,
-        default: true
-      },
-      autoplayDelay: {
-        type: Number,
-        default: 5000
-      }
+  name: 'CarouselSlider',
+  props: {
+    autoplay: {
+      type: Boolean,
+      default: true
     },
-    setup(props) {
-      const slides = ref([]);
-      const currentSlide = ref(0);
-      let intervalId = null;
-  
-      const slidesStyle = computed(() => ({
-        transform: `translateX(-${currentSlide.value * 100}%)`,
-        transition: 'transform 0.5s ease'
-      }));
-  
-      const nextSlide = () => {
-        if (slides.value.length > 0) {
-          currentSlide.value = (currentSlide.value + 1) % slides.value.length;
-        }
-      };
-  
-      const prevSlide = () => {
-        if (slides.value.length > 0) {
-          currentSlide.value = (currentSlide.value - 1 + slides.value.length) % slides.value.length;
-        }
-      };
-  
-      const startAutoplay = () => {
-        if (props.autoplay) {
-          intervalId = setInterval(nextSlide, props.autoplayDelay);
-        }
-      };
-  
-      const stopAutoplay = () => {
-        if (intervalId) {
-          clearInterval(intervalId);
-        }
-      };
-  
-      onMounted(async () => {
-        try {
-          const response = await axios.get('http://localhost:3000/slider');
-          slides.value = response.data; // Directly assign the array
-          startAutoplay();
-        } catch (error) {
-          console.error('Error fetching slides:', error);
-        }
-      });
-  
-      onUnmounted(() => {
-        stopAutoplay();
-      });
-  
-      return {
-        slides,
-        currentSlide,
-        slidesStyle,
-        nextSlide,
-        prevSlide
-      };
+    autoplayDelay: {
+      type: Number,
+      default: 5000
     }
-  };
+  },
+  setup(props) {
+    const slides = ref([]);
+    const currentSlide = ref(0);
+    let intervalId = null;
+
+    const slidesStyle = computed(() => ({
+      transform: `translateX(-${currentSlide.value * 100}%)`,
+      transition: 'transform 0.5s ease'
+    }));
+
+    const nextSlide = () => {
+      if (slides.value.length > 0) {
+        currentSlide.value = (currentSlide.value + 1) % slides.value.length;
+      }
+    };
+
+    const prevSlide = () => {
+      if (slides.value.length > 0) {
+        currentSlide.value = (currentSlide.value - 1 + slides.value.length) % slides.value.length;
+      }
+    };
+
+    const startAutoplay = () => {
+      if (props.autoplay) {
+        intervalId = setInterval(nextSlide, props.autoplayDelay);
+      }
+    };
+
+    const stopAutoplay = () => {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+    };
+
+    onMounted(async () => {
+      try {
+        slides.value = await apiService.getSliderData();
+        startAutoplay();
+      } catch (error) {
+        console.error('Error fetching slides:', error);
+      }
+    });
+
+    onUnmounted(() => {
+      stopAutoplay();
+    });
+
+    return {
+      slides,
+      currentSlide,
+      slidesStyle,
+      nextSlide,
+      prevSlide
+    };
+  }
+};
   
 </script>
 

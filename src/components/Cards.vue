@@ -24,39 +24,37 @@
   </template>
   
   <script>
-import axios from 'axios';
+import { apiService } from '@/services/apis';
 
 export default {
-    name: 'HelloWorld',
-    data() {
-      return {
-        games: [],
-        loading: true,
-      };
+  name: 'HelloWorld',
+  data() {
+    return {
+      games: [],
+      loading: true,
+    };
+  },
+  computed: {
+    categorizedGames() {
+      return this.games.reduce((acc, game) => {
+        if (!acc[game.category]) {
+          acc[game.category] = [];
+        }
+        acc[game.category].push(game);
+        return acc;
+      }, {});
     },
-    computed: {
-      categorizedGames() {
-        return this.games.reduce((acc, game) => {
-          if (!acc[game.category]) {
-            acc[game.category] = [];
-          }
-          acc[game.category].push(game);
-          return acc;
-        }, {});
-      },
-    },
-    async created() {
-      try {
-        const response = await axios.get('http://localhost:3000/games');
-        this.games = response.data;
-       
-      } catch (error) {
-        console.error('Error fetching games:', error);
-      } finally {
-        this.loading = false;
-      }
-    },
-  };
+  },
+  async created() {
+    try {
+      this.games = await apiService.getAllGames();
+    } catch (error) {
+      console.error('Error fetching games:', error);
+    } finally {
+      this.loading = false;
+    }
+  },
+};
   
 </script>
   

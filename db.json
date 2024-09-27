@@ -1088,7 +1088,28 @@
         "average_rating": 4,
         "total_reviews": 32
       }
+    },
+    {
+      "id": "dfb134b9-3bbc-468f-8be1-08cc342b4c9d",
+      "title": "Super Mario",
+      "description": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHNICjbkoy3gsqDKKSAClBE5f43xJn-rBsQ&s\nhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHNICjbkoy3gsqDKKSAClBE5f43xJn-rBsQ&s\n",
+      "system_requirements": {
+        "os": "win 7/10",
+        "processor": "i3 or more",
+        "memory": "2GB RAM",
+        "graphics": "NIL",
+        "directx": "DIRECT X9",
+        "storage": "9GB",
+        "sound_card": "Realtek "
+      },
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHNICjbkoy3gsqDKKSAClBE5f43xJn-rBsQ&s"
+      ],
+      "category": "Retro",
+      "ratings": {
+        "average_rating": 9,
+        "total_reviews": 205
+      }
     }
-   
   ]
 }

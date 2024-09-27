@@ -2,11 +2,11 @@
     <div class="game-desc mt-24 mb-10 p-6 bg-[rgba(255,255,255,.1)]  rounded-lg shadow-lg max-w-3xl mx-auto" v-if="game && game.title">
       <!-- Game Title -->
       <h1 class="text-3xl font-bold text-white mb-4 flex items-center">
-        <button @click="backfunction()" class="mr-4">
+        <!-- <button @click="backfunction()" class="mr-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
             </svg>
-          </button>
+          </button> -->
         {{ game.title }}</h1>
       
       <!-- Display main image -->
@@ -56,47 +56,47 @@
   
   
   <script>
-import axios from 'axios';
+import { apiService } from '@/services/apis';
 
 export default {
-    props: ['categoryName', 'gameTitle'],
-    data() {
-      return {
-        game: {} // To store detailed game data
-      };
+  props: ['categoryName', 'gameTitle'],
+  data() {
+    return {
+      game: {}
+    };
+  },
+  methods: {
+    async fetchGameDetails() {
+      try {
+        console.log("hiiiiii")
+        this.game = await apiService.getGameByTitle(this.gameTitle)
+        console.log(this.game,"this.game single")
+        console.log("hiiiiii")
+
+      } catch (error) {
+        console.error("Error fetching game details:", error);
+      }
     },
-    methods: {
-      fetchGameDetails() {
-        axios
-          .get(`http://localhost:3000/games?title=${encodeURIComponent(this.gameTitle)}`)
-          .then((response) => {
-            console.log(response);
-            // Since the response data is an array, use the first item
-            this.game = response.data[0];
-          })
-          .catch((error) => {
-            console.error("Error fetching game details:", error);
-          });
-      },
-      backfunction() {
-        this.$router.go(-1); 
-      },
-      downloadGameDetails() {
-            const fileContent = JSON.stringify(this.game, null, 2); // Convert the game object to a pretty-printed JSON string
-            const blob = new Blob([fileContent], { type: 'text/plain' });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = `${this.game.title}_details.txt`; // File name will be game title with '_details.txt'
-            link.click();
-        }
+    backFunction() {
+      this.$router.beforeEach;
     },
-    created() {
-      this.fetchGameDetails(); // Fetch game details when the component is created
+    downloadGameDetails() {
+      const fileContent = JSON.stringify(this.game, null, 2);
+      const blob = new Blob([fileContent], { type: 'text/plain' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `${this.game.title}_details.txt`;
+      link.click();
     }
-  };
-  
+  },
+  created() {
+    this.fetchGameDetails();
+  }
+};
 </script>
-  <style scoped>
+ 
+ 
+ <style scoped>
   .game-desc {
     padding: 1rem;
   }
